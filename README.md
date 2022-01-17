@@ -1,7 +1,7 @@
 # asym_encryption
 
 <p align="center">
-  <img src="screenshot/encryption_menu_1.jpg" alt="Size Limit CLI" width="550">
+  <img src="screenshot/encryption_menu_1.jpg" alt="Size Limit CLI" width="800">
 </p>
 
 <p align="center">
