@@ -1,0 +1,59 @@
+--Programa Hoşgeldiniz!
+
+--- Gerekli Ekran Görüntüleri screenshot klasörünün içerisinde yer almaktadır. bunu yanı sıra programın nasıl çalıştığını buradanda okuyabilirsiniz ---
+
+--Programın işleyişi şu şekildedir;
+
+--öncelikle işlem yapmak istediğiniz dosyanızı programın içine atınız.
+
+-- daha sonra public ve private key'iniz yoksa, public\private key oluşturmalısınız
+   bunun için Menuden [K] tuşuna basabilirsiniz (*büyük küçük harf duyarlıdır.)
+
+-- eğer public\private key'iniz varsa menuden diğer işlemlere devam edebiilirsiniz key oluşturmanıza gerek yok.
+
+--Dosya şifrelemek için;
+  
+-- Dosya şifrelemek için [E] tuşuna basabilirsiniz, daha sonra program size 
+   şifrelemek istediğiniz dosyanın konumunu soracak burada dikkat etmeniz gereken şey,
+   dosyanın tam yolunu girmelisiniz.
+
+--örnek olarak info.txt adında bir dosya'yı encrypt etmek istiyorum bu dosyanın tam konumunu programa vereceğim.
+
+--Program public key'in konumunu isteyecek bu konumda program aracılığıyla key generate etmediyseniz kendi public\private key
+  dosyanınızın tam konumunu programa giriniz. Zaten programda key generate ettiyseniz klasörün için de otomatik olarak public\private key yaratacak
+  bu public key'in tam konumunu programa verin.
+
+--Dosyanız şifrelendi!
+
+-- ve şifrelenmiş dosyaya yazıldı (*örn: info.txt  --> info_encrypted.txt) gibi...
+
+--Deşifreleme için;
+
+-- Deşifreleme yapmak için [D] ye basın
+
+-- Daha sonra encrypte ettiğiniz ya da hali hazırda encryptte edilimiş dosyanız varsa onun tam konumunu yazın
+
+--Şimdi private keyinizin tam konumunu girin
+
+--Dosyanız Deşifrelendi!
+
+--İmzalamak için;
+
+--İmzalamak için [S] ye basın
+
+--Sizin için signature.pub adında bir dosyaya imzanızı yazacak
+
+--İmza doğrulamak içi;
+
+--İmza doğrulamak için [V] ye basın
+
+--İmza geçerli ya da geçersiz olarak geri bildirim yapacak.
+
+Teşekkürler !
+
+
+-- Bartu Bozkurt - 2017280013 - Dokuz Eylül Üniversitesi Bilgisayar Bilimleri -
+
+
+
+
