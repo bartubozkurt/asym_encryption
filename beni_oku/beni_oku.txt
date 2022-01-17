@@ -1,59 +1,55 @@
---Programa Hoşgeldiniz!
+--Welcome to the Program!
 
---- Gerekli Ekran Görüntüleri screenshot klasörünün içerisinde yer almaktadır. bunu yanı sıra programın nasıl çalıştığını buradanda okuyabilirsiniz ---
+--- Required Screenshots are located in the screenshot folder. You can read that as well as how the program works here ---
 
---Programın işleyişi şu şekildedir;
+--The operation of the program is as follows;
 
---öncelikle işlem yapmak istediğiniz dosyanızı programın içine atınız.
+--First of all, put the file you want to process into the program.
 
--- daha sonra public ve private key'iniz yoksa, public\private key oluşturmalısınız
-   bunun için Menuden [K] tuşuna basabilirsiniz (*büyük küçük harf duyarlıdır.)
+-- then if you don't have public and private key you should create public\private key
+   To do this, you can press the [K] key from the Menu (*case sensitive.)
 
--- eğer public\private key'iniz varsa menuden diğer işlemlere devam edebiilirsiniz key oluşturmanıza gerek yok.
+-- If you have a public\private key, you can continue with other operations from the menu. You don't need to create a key.
 
---Dosya şifrelemek için;
+--To encrypt files;
   
--- Dosya şifrelemek için [E] tuşuna basabilirsiniz, daha sonra program size 
-   şifrelemek istediğiniz dosyanın konumunu soracak burada dikkat etmeniz gereken şey,
-   dosyanın tam yolunu girmelisiniz.
+-- You can press the [E] key to encrypt the file, then the program will give you
+   It will ask for the location of the file you want to encrypt, what you need to pay attention to here,
+   You must enter the full path to the file.
 
---örnek olarak info.txt adında bir dosya'yı encrypt etmek istiyorum bu dosyanın tam konumunu programa vereceğim.
+--For example, I want to encrypt a file named info.txt and I will give the exact location of this file to the program.
 
---Program public key'in konumunu isteyecek bu konumda program aracılığıyla key generate etmediyseniz kendi public\private key
-  dosyanınızın tam konumunu programa giriniz. Zaten programda key generate ettiyseniz klasörün için de otomatik olarak public\private key yaratacak
-  bu public key'in tam konumunu programa verin.
+--The program will ask for the location of the public key, if you did not generate the key programmatically in this location, your own public\private key
+  Enter the exact location of your file into the program. If you have already generated the key in the program, it will automatically create a public\private key for your folder.
+  Give the program the exact location of this public key.
 
---Dosyanız şifrelendi!
+--Your file is encrypted!
 
--- ve şifrelenmiş dosyaya yazıldı (*örn: info.txt  --> info_encrypted.txt) gibi...
+-- and written to the encrypted file (*ex: info.txt --> info_encrypted.txt) like...
 
---Deşifreleme için;
+--For decryption;
 
--- Deşifreleme yapmak için [D] ye basın
+-- Press [D] to decode
 
--- Daha sonra encrypte ettiğiniz ya da hali hazırda encryptte edilimiş dosyanız varsa onun tam konumunu yazın
+-- If you have a file that you encrypt later or that has already been encrypted, write its exact location
 
---Şimdi private keyinizin tam konumunu girin
+--Now enter the exact location of your private key
 
---Dosyanız Deşifrelendi!
+--Your File Has Been Decrypted!
 
---İmzalamak için;
+--To sign;
 
---İmzalamak için [S] ye basın
+--Press [S] to sign
 
---Sizin için signature.pub adında bir dosyaya imzanızı yazacak
+-- It will write your signature to a file named signature.pub for you
 
---İmza doğrulamak içi;
+--To verify signature;
 
---İmza doğrulamak için [V] ye basın
+--Press [V] to verify signature
 
---İmza geçerli ya da geçersiz olarak geri bildirim yapacak.
+--Signature will give feedback as valid or invalid.
 
-Teşekkürler !
-
-
--- Bartu Bozkurt - 2017280013 - Dokuz Eylül Üniversitesi Bilgisayar Bilimleri -
+Thanks !
 
 
-
-
+-- Bartu Bozkurt - 2017280013 - Dokuz Eylul University Computer Sciences -
